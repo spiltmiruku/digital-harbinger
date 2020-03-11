@@ -4,6 +4,12 @@ import "./menu.css";
 
 const Menu = () => {
   return (
+    <div>
+    <div className='header-container'>
+      <h1 className='dh-logo'>
+        Digital Harbinger
+      </h1>
+    
     <div className='menu-container'>
       <div className='menu-link'>
         <Link to="/">
@@ -35,6 +41,10 @@ const Menu = () => {
         </Link>
       </div>
     </div>
+    </div>
+
+    </div>
+
   );
 };
 export default Menu;

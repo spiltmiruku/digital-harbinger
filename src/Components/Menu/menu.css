@@ -1,10 +1,44 @@
 /* ----------MENU COMPONENT---------- */
 
+
+.dh-logo {
+    color: #fff;
+    margin: 20px 0 0 20px;
+    width: max-content;
+}
+
+.border-on .dh-logo {
+    border:  pink solid;
+}
+
+.header-container {
+    display: flex;
+	flex-direction: row;
+	/* flex-wrap: nowrap; */
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.border-on .header-container {
+    border:  blueviolet solid;
+}
+
 .menu-container {
     text-align: right;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: max-content;
+    margin-top: 32px;
+}
+
+.border-on .menu-container {
+    border: green solid;
+}
+
+.menu-link {
+    margin: 20px;
 }
 
 .menu-link span {
@@ -12,9 +46,12 @@
     color: #fff;
     font-family: 'Muli', sans-serif;
     font-weight: 700;
-    margin: 25px;
 }
 
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    border-bottom: #3d85f0 solid 3px;
 }
