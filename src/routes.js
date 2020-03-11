@@ -8,10 +8,10 @@ import Pricing from "./Components/Pricing/Pricing";
 
 export default (
   <Switch>
-    <Route exact path="/" componenet={Landing} />
-    <Route path='/about' componenet={About} />
-    <Route path='/contact' componenet={Contact} />
-    <Route path='/portfolio' componenet={Portfolio} />
-    <Route path='/pricing' componenet={Pricing} />
+    <Route exact path="/" component={Landing} />
+    <Route path='/about' component={About} />
+    <Route path='/contact' component={Contact} />
+    <Route path='/portfolio' component={Portfolio} />
+    <Route path='/pricing' component={Pricing} />
   </Switch>
 );
