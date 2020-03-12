@@ -35,3 +35,9 @@
     justify-content: center;
     padding: 20px 0;
 }
+
+.learn-more-btn:hover {
+    color: #dfe1e3;
+    background-color: #3d85f0;
+    cursor: pointer;
+}
