@@ -1,1 +1,35 @@
 /* ----------PORTFOLIO COMPONENT---------- */
+
+.client-projects-container {
+    /* border: violet solid; */
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.project-wrapper {
+  /* border: yellow solid; */
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#project-img {
+  /* border: palegreen solid; */
+  height: 250px;
+  padding: 10px;
+  background-color: #414345;
+}
+
+#project-img:hover {
+  background-color: #dfe1e3;
+}
+
+.client-info, .client-name {
+    color: #bfd9ff;
+    line-height: 20px;
+}
