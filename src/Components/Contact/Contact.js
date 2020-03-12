@@ -43,6 +43,8 @@ class Contact extends Component {
         placeholder='message...'
         // value={message}
         />
+
+        <div className='send-btn'>send</div>
         </div>
 
       </div>
