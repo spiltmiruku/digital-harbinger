@@ -32,7 +32,7 @@
 }
 
 .message-input {
-    height: 300px;
+    height: 200px;
     width: 500px;
 }
 
@@ -41,7 +41,7 @@ input::placeholder {
 }
 
 .send-btn {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
     color: #3d85f0;
     height: 50px;
@@ -51,7 +51,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 20px;
+    margin: 30px 20px 50px 0;
 }
 
 .send-btn:hover {
