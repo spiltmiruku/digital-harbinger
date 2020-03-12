@@ -20,27 +20,31 @@ class Contact extends Component {
       
     return (
       <div>
-        <h1>CONTACT US</h1>
-        <h2>We'd love to hear from you!</h2>
+        <h1 className='contact-title'>CONTACT US</h1>
+        <h2 className='contact-sub-title'>We'd love to hear from you!</h2>
+
+        <div className='input-boxes'>
 
         <input 
         className="contact-input" 
         type="text" 
         placeholder='name'
-        value={name}
+        // value={name}
         />
         <input 
         className="contact-input" 
         type="email" 
         placeholder='email'
-        value={email}
+        // value={email}
         />
         <input 
-        className="contact-input" 
+        className="contact-input message-input" 
         type="text" 
         placeholder='message...'
-        value={message}
+        // value={message}
         />
+        </div>
+
       </div>
     );
   }

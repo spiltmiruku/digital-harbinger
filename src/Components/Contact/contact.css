@@ -1,1 +1,38 @@
 /* ----------CONTACT COMPONENT---------- */
+
+.contact-title {
+    font-size: 55px;
+    color: #80b3ff;
+    font-weight: 900;
+}
+
+.contact-sub-title {
+    font-size: 35px;
+    color: #bfd9ff;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    color: #fff;
+    font-size: 20px;
+    height: 45px;
+    width: 300px;
+    background-color: #414345;
+    border: #414345;
+    outline-color: #dfe1e3;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.message-input {
+    height: 300px;
+    width: 500px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
