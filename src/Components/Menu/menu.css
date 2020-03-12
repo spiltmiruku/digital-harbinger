@@ -1,6 +1,11 @@
 /* ----------MENU COMPONENT---------- */
 
+body {
+    font-family: 'Muli', sans-serif;
+}
+
 .dh-logo {
+    font-size: 35px;
     color: #fff;
     margin: 20px 0 0 20px;
     width: max-content;
@@ -43,7 +48,6 @@
 .menu-link span {
     font-size: 20px;
     color: #fff;
-    font-family: 'Muli', sans-serif;
     font-weight: 700;
 }
 

@@ -1,6 +1,37 @@
 /* ----------LANDING COMPONENT---------- */
 
 .main-title {
-    font-size: 45px;
+    font-size: 55px;
+    color: #80b3ff;
+    font-weight: 700;
+    margin: 150px 0 30px 150px;
+}
+
+.sub-title {
+    font-size: 35px;
+    color: #bfd9ff;
+    margin-left: 250px;
+}
+
+.catchy-slogan {
+    font-size: 25px;
     color: #3d85f0;
+    font-weight: 900;
+    margin: 30px 0 60px 150px;
+}
+
+.learn-more-btn {
+    color: #414345;
+    width: 200px;
+    background-color: #bfd9ff;
+    border-radius: 6px;
+    margin-left: 470px;
+}
+
+.learn-more-btn > span {
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
